@@ -34,7 +34,7 @@ workflows:
   version: 2
   one_and_two:
     jobs:
-      #- one
+      - one
       - two:
           requires:
             - one
